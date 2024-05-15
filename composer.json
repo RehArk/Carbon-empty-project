@@ -1,0 +1,27 @@
+{
+    "name": "vendor/carbon-empty-project",
+    "description": "An empty project with the default Carbon framework configuration",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RehArk",
+            "email": "contact@vincent-clerc.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },    
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/RehArk/Carbon.git"
+        }
+      ],
+    "require-dev": {
+        "rehark/carbon": "dev-main",
+        "phpunit/phpunit": "^11.0"
+    }
+}
